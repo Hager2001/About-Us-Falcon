@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falocon Adventure</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/image/favicon.png"
+    />
+    <!-- -======= bootstrap ====== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        <!-- =========== swiper =========== -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+    <!-- -======= style css ====== -->
+    <!-- <link rel="stylesheet" href="./assets/css/d.css" /> -->
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+
+  <!--=================================   Start Navbar    ===================================-->
+  <nav class="nav-bar main-nav-bar">
+    <div class="nav-output">   
+      <div class="bg-gray">
+        <div class="container-fuild d-flex align-items-center justify-content-around ">
+  
+          <div class="single-item d-flex align-items-center justify-content-end">
+            <a href="" class="px-3"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-skype"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+  
+          <div class="single-item">
+            <span class="flaticon-call">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <p> +(02) 0114-9912-318</p>
+          </div>
+  
+          <div class="single-item">
+            <span class="flaticon-location">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p> 43 N Area, Ahmed Allam St, Pyramids Garden, Giza, Egypt</p>
+          </div>
+  
+        
+          
+          <div class="single-item">
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+                English
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#"> English</a></li>    
+              </ul>
+            </li>
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+              $ US
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#">  $ US</a></li>    
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+       <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/image/logo-sticky.png" alt="logo-nav">
+          </a>
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+  
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+  
+              <li class="nav-item navsLink dropdown-li">
+                <a class="nav-link" href="#">Tours 
+                  <i class="fa-solid fa-caret-down" style="margin-left: 6px"></i>
+                </a>
+                <ul class="dropdown-menu animate__animated animate__fadeIn">
+                    <li>
+                        <a class="dropdown-item " href="#" style=" color: #4f86c6;">WHAT DO YOU LIKE?</a>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Safari And Desert</a></li>
+                            <li><a  class="dropdown-item"href="#">Historical And Cultural</a></li>
+                            <li><a  class="dropdown-item"href="#">Red Sea Trips</a></li>
+                            <li><a  class="dropdown-item" href="#">Family Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Scuba Diving Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Transfers Only Tours</a></li>
+  
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#"style=" color: #4f86c6;" >WHERE DO YOU WANT TO GO?</a>
+                        <ul>
+                            <li><a  class="dropdown-item" href="#">Hurghada</a></li>
+                            <li><a  class="dropdown-item" href="#">Luxor</a></li>
+                            <li><a  class="dropdown-item" href="#">Cairo</a></li>
+          
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">About</a>
+              </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Blog</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Services</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Contact</a>
+              </li>
+            </ul>
+            <a href="#" class="btn-effect">Inquiry</a>
+          </div> 
+        </div>
+      </nav>
+    </div>
+    </div>
+        </nav>
+  
+  <!--======================================  End Navbar  =========================================-  -->
+   <!-- -====================================  Header Start ===============================================-->
+     
+   <div class="container-fluid bg-breadcrumb">
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us
+        </h4>
+        <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active ">About Us
+
+            </li>
+        </ol>    
+    </div>
+</div>
+<!-- -================================ Header End ===================================================-->
+<!--=================================== About  ========================================-->
+<section class="about-us padtobo-50" id="about-us">
+  <!-- About Start -->
+  <div class="container-xxl ">
+   <div class="container">
+       <div class="row g-5">
+           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+               <div class="d-flex flex-column about-us-img position-relative">
+                   <img class="img-fluid  w-75 align-self-end rounded" src="./assets/image/img-2-1.jpg" alt="about-big-img">
+                   <img class="img-fluid  w-50 rounded" src="./assets/image/xinner-ab-1-3.jpg.pagespeed.ic.-Q8dpsgSPb.webp" alt="about-small-img" style="margin-top: -25%;">
+                   <img class="about-shape" src="./assets/image/about-quotes.svg" alt="small-shape">
+               </div> 
+           </div>
+           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+            <div class="row section-title">
+              <div class="col-12 mb-24">
+                <h2>About Us</h2>
+                <h3 class="mb-24">Why You Should Trust Us?<br> Get Know About Us!</h3>
+              </div>
+              <p  class="ptext">
+                is an established fully insured and licensed company that has continued to grow over the last 9 years. </p>
+              <p class="mb-4 ptext">With a great reputation, known for honesty, integrity, advice and friendly personal service. We have a great mix of both British and Egyptian management and staff to provide the best service at very competitive prices to ensure you have a very memorable, enjoyable and personal experience.
+
+              </p>
+              <div class="about-us-info mb-24">
+               <div class="about-us-points">
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Easy Booking Options</p>
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Amazing Tour Plans</p>
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Best Travel Guide</p>
+               </div>
+               <div class="about-us-points">
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Easy Booking Options</p>
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Amazing Tour Plans</p>
+                  <p><i class="far fa-check-circle text-primary me-3 pr-2" aria-hidden="true"></i>Amazing Tour Plans</p>
+               </div>
+              </div>
+               <button type="submit" class="btn-effect ">
+                 <a class="hyper-link" href="#">Read More</a>
+               </button>
+       </div>
+   </div>
+</div>
+<!-- About End -->
+</div>
+</div>
+</section>
+
+<!--============================ About  ================================================-->
+<!--===========================  start   Services ===================================-->
+<section class=" service " id="service">
+  <!-- Container -->
+  <div class="container">
+      <div class="row">
+          <div class="section-title text-center">
+             <div class="col-12">
+       
+                <span class="section-subtitle mb-20"
+                >Why Choose Us</span
+              >
+              <p class="mb-24">
+                 Reasons to Book with Us
+              </p>
+              </div> 
+              
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                    We all have the knowledge of the excursions, the majority of them on a firsthand experience, so we can recommend what is best for you & your family. We will also know where you are and who you are with if we ever need to contact you.
+                  </p>
+                  <span class="number-bg">01</span>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                    We know that everyone looks for something different on their holiday. We will work with you to give you exactly what you want. So if you don't see what you’re looking for, let us know and well do our best to organize it for you.
+                  </p>
+                  <span class="number-bg">02</span>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                   The guides who we appoint on the excursions all speak a very good level of English.
+
+                  </p>
+                  <span class="number-bg">03</span>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                    In the unlikely event of an accident, we as a company have our own Public Liability Insurance, to cover all the excursions we provide to our customers.
+                  </p>
+                  <span class="number-bg">04</span>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                     We at Falcon Adventure strive to please our customers. We closely monitor customer feedback of the excursions we sell to ensure that not only are they enjoyable, but also that a good service is provided along the way.
+
+                  </p>
+                  <span class="number-bg">05</span>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="services-item">
+                  <p>
+                   Our prices are very competitive; we like to think that we give good, affordable prices so tourists can do more and get the best out of their holiday experience!
+                  </p>
+                  <span class="number-bg">06</span>
+              </div>
+          </div>
+     
+      </div>
+  </div>
+</section>
+<!--=========================== End  Services =====================================-->
+<section class="container">
+  <div class="card-container swiper swiper__horizontal">
+    <div class="card-content">
+      <div class="swiper-wrapper">
+        <article class="card-article swiper-slide">
+          <div class="card-data">
+            <div class="services-item">
+              <p>
+                We all have the knowledge of the excursions, the majority of
+                them on a firsthand experience, so we can recommend what is
+                best for you & your family. We will also know where you are
+                and who you are with if we ever need to contact you.
+              </p>
+              <span class="number-bg">01</span>
+            </div>
+
+          </div>
+        </article>
+        <article class="card-article swiper-slide">
+          <div class="card-data">
+            <div class="services-item">
+              <p>
+                We all have the knowledge of the excursions, the majority of
+                them on a firsthand experience, so we can recommend what is
+                best for you & your family. We will also know where you are
+                and who you are with if we ever need to contact you.
+              </p>
+              <span class="number-bg">02</span>
+            </div>
+
+          </div>
+        </article>
+        <article class="card-article swiper-slide">
+
+          <div class="card-data">
+            <div class="services-item">
+              <p>
+                We all have the knowledge of the excursions, the majority of
+                them on a firsthand experience, so we can recommend what is
+                best for you & your family. We will also know where you are
+                and who you are with if we ever need to contact you.
+              </p>
+              <span class="number-bg">03</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Article -->
+        <article class="card-article swiper-slide">
+          <div class="card-data">
+            <div class="services-item">
+              <p>
+                We all have the knowledge of the excursions, the majority of
+                them on a firsthand experience, so we can recommend what is
+                best for you & your family. We will also know where you are
+                and who you are with if we ever need to contact you.
+              </p>
+              <span class="number-bg">04</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Article -->
+        <article class="card-article swiper-slide">
+          <div class="card-data">
+            <div class="services-item">
+              <p>
+                We all have the knowledge of the excursions, the majority of
+                them on a firsthand experience, so we can recommend what is
+                best for you & your family. We will also know where you are
+                and who you are with if we ever need to contact you.
+              </p>
+              <span class="number-bg">05</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="swiper-button-next">
+      <i class="ri-arrow-right-s-line"></i>
+    </div>
+
+    <div class="swiper-button-prev">
+      <i class="ri-arrow-left-s-line"></i>
+    </div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<!--=================================== About  ========================================-->
+<section class="about-us padtobo-50" id="about-us">
+  <!-- About Start -->
+  <div class="container-xxl ">
+   <div class="container">
+       <div class="row g-5">
+         
+           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+            <div class="row section-title">
+              <div class="col-12 mb-24">
+                <h2>About Us</h2>
+                <h3 class="mb-24">Are you ready to travel?</h3>
+              </div>
+              <p class="ptext">
+                Prepared for Real Adventure & Natural Delights
+              </p>
+              <p class="mb-4 ptext">
+                Share the core values and principles that drive your company Emphasize a commitment to customer satisfaction
+              </p>
+              <div class="about-us-points">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <g clip-path="url(#clip0_97_8733)">
+                    <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4400E7"> </stop>
+                      <stop offset="1" stop-color="#7B00FE"></stop>
+                    </linearGradient><clipPath id="clip0_97_8733">
+                      <rect width="18" height="18" fill="white"></rect>
+                    </clipPath></defs>
+                  </svg> Discuss your commitment to excellent customer service.</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <g clip-path="url(#clip0_97_8733)">
+                    <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4400E7"> </stop>
+                      <stop offset="1" stop-color="#7B00FE"></stop>
+                    </linearGradient><clipPath id="clip0_97_8733">
+                      <rect width="18" height="18" fill="white"></rect>
+                    </clipPath></defs>
+                  </svg> Share the core values that guide your business.</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <g clip-path="url(#clip0_97_8733)">
+                    <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4400E7"> </stop>
+                      <stop offset="1" stop-color="#7B00FE"></stop>
+                    </linearGradient><clipPath id="clip0_97_8733">
+                      <rect width="18" height="18" fill="white"></rect>
+                    </clipPath></defs>
+                  </svg> 
+                  Mention any partnerships with hotels, airlines, or local guides</p>
+             </div>
+              <!-- <div class="about-us-info mb-24">
+               <div class="about-us-points">
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Easy Booking Options</p>
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Amazing Tour Plans</p>
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Best Travel Guide</p>
+               </div>
+               <div class="about-us-points">
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Easy Booking Options</p>
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Amazing Tour Plans</p>
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_97_8733)">
+                      <path d="M17.5626 7.93928L16.335 6.71187C16.0436 6.4205 15.8049 5.84472 15.8049 5.4318V3.69593C15.8049 2.87018 15.1303 2.19561 14.3048 2.19517H12.5682C12.1558 2.19517 11.5793 1.95597 11.2879 1.66482L10.0605 0.437407C9.47729 -0.145802 8.52238 -0.145802 7.93917 0.437407L6.71176 1.6657C6.42013 1.95707 5.84303 2.19561 5.43147 2.19561H3.6956C2.87095 2.19561 2.1955 2.87018 2.1955 3.69593V5.43185C2.1955 5.84314 1.95678 6.42072 1.66537 6.71191L0.437737 7.93933C-0.145912 8.52254 -0.145912 9.47744 0.437737 10.0616L1.66537 11.289C1.95696 11.5804 2.1955 12.1577 2.1955 12.5691V14.305C2.1955 15.1298 2.87095 15.8053 3.6956 15.8053H5.43152C5.84395 15.8053 6.42039 16.044 6.7118 16.3352L7.93922 17.5631C8.52243 18.1458 9.47733 18.1458 10.0605 17.5631L11.288 16.3352C11.5796 16.0438 12.1558 15.8053 12.5682 15.8053H14.3048C15.1303 15.8053 15.8049 15.1298 15.8049 14.305V12.5691C15.8049 12.156 16.0439 11.5802 16.335 11.289L17.5627 10.0616C18.1454 9.47744 18.1454 8.52249 17.5626 7.93928ZM7.80914 12.3753L4.49955 9.06523L5.56023 8.00476L7.8094 10.2539L12.4393 5.62512L13.4997 6.68559L7.80914 12.3753Z" fill="url(#paint0_linear_97_8733)"></path></g><defs><linearGradient id="paint0_linear_97_8733" x1="0" y1="9.00007" x2="17.9997" y2="9.00007" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#4400E7"> </stop>
+                        <stop offset="1" stop-color="#7B00FE"></stop>
+                      </linearGradient><clipPath id="clip0_97_8733">
+                        <rect width="18" height="18" fill="white"></rect>
+                      </clipPath></defs>
+                    </svg> Amazing Tour Plans</p>
+               </div>
+              </div> -->
+               <button type="submit" class="btn-effect ">
+                 <a class="hyper-link" href="#">Read More</a>
+               </button>
+       </div>
+   
+    
+      </div>
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+        <div class="d-flex flex-column about-us-img position-relative">
+            <img class="img-fluid  w-75 align-self-end rounded" src="./assets/image/safa2.jpg" alt="about-big-img">
+            <img class="img-fluid  w-50 rounded" src="./assets/image/xinner-ab-1-3.jpg.pagespeed.ic.-Q8dpsgSPb.webp" alt="about-small-img" style="margin-top: -25%;">
+            <img class="about-shape" src="./assets/image/about-quotes.svg" alt="small-shape">
+
+
+            
+        </div> 
+    </div>
+</div>
+<!-- About End -->
+</div>
+</div>
+</section>
+
+<!--============================ About  ================================================-->
+
+  <!-- ============================ FAQ ================================================-->
+   <section class="faq clear-fix  ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title-wrapper" style="text-align: center;">
+            <span class="section-subtitle mb-20"
+              >Popular Questions
+              </span
+            >
+            <p class="p__text mb-24">
+              Experience the various exciting tour and travel 
+              packages and Make hotel reservations, find vacation packages, search cheap hotels and events
+        
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">
+                How can I contact Falcon Adventure to book a tour?
+              </span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>
+                  
+                  You can either contact us via email or our Facebook page to book your tours.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">
+                Is there an age limit on claiming my child as a dependent?
+              </span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>To claim your child as your dependent, your child must meet either the qualifying child test or the qualifying relative test:
+  
+                  To meet the qualifying child test, your child must be younger than you and either younger than 19 years old or be a "student" younger than 24 years old as of the end of the calendar year.
+                  There's no age limit if your child is "permanently and totally disabled" or meets the qualifying relative test.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Why book on line?</span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>Booking online means your spaces for the trips will be reserved and organized, previous to your arrival.
+  
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How do I receive my tour vouchers?</span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                You can either receive your tour voucher via email , or one of our reps can deliver them personally to your hotel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">
+                Do the tours include transfers from my Hotel?
+              </span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>All trips include collection and return to your hotel in an air conditioned vehicle.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">
+                What if I want to change the day or date of a tour I have booked?</span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover
+                  aliens?</span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>The dates can be changed easily for local trips, as long as plenty of notice has been given. Any tours which include flights tickets cannot be changed.
+  
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Why book with Falcon Adventure?</span><span class="icon" aria-hidden="true"><i
+                    class="fa-solid fa-chevron-right"></i></span></button>
+              <div class="accordion-content">
+                <p>When booking with Falcon Adventure, you will receive a personalized service from our professional and enthusiastic team. Our aim is to make sure all aspects of your trips are enjoyed. We have a mixture of British and Egyptian management which is the perfect cocktail to ensure great customer service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============================ FAQ ================================================-->
+  
+  <!-- -===================================================================================-->
+  
+  <section class="theme-bg  p-relative  ">
+      <div class="cta-shape-bg image-bg"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-4 order-lg-0 order-1"
+            style="visibility: visible"
+          >
+           
+            </div>
+          </div>
+          <div class="col-xl-12 col-lg-12 order-lg-1 order-0">
+            <div class="cta-wrapper cta-style-two">
+              <div class="section-title-wrapper mb-20">
+                <h2 class="section-title small white-text mb-20">
+                  HURGHADA TOP ACTIVITIES
+                </h2>
+                <p class="white-text mb-20">
+                  Book now your Hurghada excursions and check out our top
+                  activities and things to do in Hurghada Red Sea Egypt
+                </p>
+              </div>
+              <div class="cta-btn">
+                <a
+                  href="#"
+                  class="bd-primary-btn btn-style has-arrow is-bg btn-tertiary is-white radius-60 btn-effect"
+                >
+                  <span class="bd-primary-btn-text">READ MORE</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <!-- ========================================================================= -->
+        <!--========================================  Start Footer ====================================-->
+        <footer class="footer">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row footer-row">
+              <div class="col-sm-12 col-lg-3 mb-30">
+      
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <img src="./assets/image/logo-sticky.png" />
+                  </div>
+                  <p class="mb-30 mt-30">
+                      FALCON ADVENTURE Is An Established Fully Insured And Licensed Company 
+                      That Has Continued To Grow Over The Last 12
+                  </p>
+                  <div class="contact-info">
+                    <div class="single-contact mb-0">
+                      <div class="info-cont">
+                        <ul class="social-media">
+                          <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-sm-12 col-lg-3 mb-30">
+                <div class="footer-widget">
+                  <h4>CATEGORIES</h4>
+                  <div class="line-footer"></div>
+                  <div class="row">
+                    <div class="col">
+                      <ul class="footer-link mb-0">
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span>Safari And Desert
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span> Historical And Cultural
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span> Red Sea Trips
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span> Family Tours
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span> Scuba Diving Tours
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+                </div>
+              </div>
+              <div class=" col-sm-12 col-lg-3 mb-30">                     
+                <div class="footer-widget mb-0">
+                  <h4>GENERAL</h4>
+                  <div class="line-footer"></div>
+                  <div class="row">
+                    <div class="col">
+                      <ul class="footer-link mb-0">
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span> About Us
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span>  Contact
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span>   FAQ
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span>  Blog
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span><i class="fas fa-caret-right"></i></span>  Favourites
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                <div class="footer-widget">
+                  <h4>QUICK CONTACT</h4>
+                 <div class="line-footer"></div>
+                  <div class="row">
+                      <div class="col">
+                        <ul class="footer-link mb-0">
+                          <li>
+                            <a href="#">
+                              <span><i class="fa-solid fa-phone"></i></span> Phone: +201117670277
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span><i class="fa-solid fa-phone"></i></span> Mobile: +201117670277
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span><i class="fas fa-caret-right"></i></span> Fax:
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span><i class="fa-solid fa-envelope"></i> </i></span> Email:
+                              Falconadventure825@Gmail.Com
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span><i class="fa-brands fa-amazon-pay"></i></span> Secure payments with
+                              <img src="./assets/image/payment-cards.png" alt="" class="logo" />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+              </div>
+          </div>    
+          <div class="footer-bar">
+            <div class="container">
+              <div class="footer-copy">
+                <div class="copyright">
+                  Copyright © 2024 <a href="https://www.seoera.net/" target="_blank">SeoEra</a> 
+                  All Right Reserved
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--========================================  End Footer ===============================================-->
+    
+      <!-- =================================== js ======================= -->
+      <!-- -================================ bootstrap ===================== -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"
+      ></script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+     <!-- ================================== jquery ======================= -->
+  
+     <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   ></script>
+      <!-- =================================== js ======================= -->
+      <script src="./assets/js/faq.js"></script>
+  
+      <script src="./assets/js/maine.js"></script>
+    </body>
+  </html>
+  
